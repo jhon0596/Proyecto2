@@ -16,8 +16,4 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(v.getContext(),Registro.class);
         startActivity(intent);
     }
-    public void buttononClickLogIn(View v){
-        Intent intent = new Intent(v.getContext(),LogIn.class);
-        startActivity(intent);
-    }
 }

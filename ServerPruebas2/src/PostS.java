@@ -1,5 +1,3 @@
-package src;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -27,7 +25,7 @@ String data;
 			data+= URLEncoder.encode(propiedad, "UTF-8")+ "=" +URLEncoder.encode(valor, "UTF-8");
 }
 
-	public String getRespuesta() throws IOException {
+	public String getRespueta() throws IOException {
 		String respuesta = "";
 
 		URLConnection conn = url.openConnection();
@@ -47,7 +45,7 @@ String data;
 		while ((linea = rd.readLine()) != null) {
         respuesta+= linea;
      }
-return "hola";
+return respuesta;
 }
 
 }

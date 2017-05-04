@@ -1,5 +1,3 @@
-package src;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -14,7 +12,7 @@ public class GetS {
 		
 		try {
 	
-			URL url = new URL("http://192.168.43.172:9080/ChefAppS/resources/hello/get");
+			URL url = new URL("http://192.168.100.3:9080/ChefAppS/resources/hello/get");
 			HttpURLConnection conn = (HttpURLConnection) url.openConnection();
 			conn.setRequestMethod("GET");
 			conn.setRequestProperty("Accept", "application/json");
